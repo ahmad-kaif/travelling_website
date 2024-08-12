@@ -1,0 +1,37 @@
+.travel-packages-container {
+    background-color: #1a202c; /* Dark background color */
+  }
+  
+  .packages-grid {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .package-card {
+    background-color: #2d3748;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .package-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .package-card img {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .package-card img:hover {
+    opacity: 0.8;
+  }
+  
+  .package-card h3 {
+    color: #ffffff;
+  }
+  
+  .package-card p {
+    color: #a0aec0;
+  }
+  
