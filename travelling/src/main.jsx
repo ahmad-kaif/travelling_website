@@ -7,7 +7,8 @@ import Layout from './Layout.jsx'
 import Home from './components/home/Home.jsx'
 import About from './components/about/About.jsx'
 import Contact from './components/contact/Contact.jsx'
-import Almaty from './components/home/internationalPackages/Almaty.jsx'
+import Packages from './components/home/Packages.jsx'
+import Package from './components/home/Package.jsx'
 
 
 const router = createBrowserRouter([
@@ -29,7 +30,11 @@ const router = createBrowserRouter([
       },
       {
         path: "packages",
-        element: <Contact/>
+        element: <Packages/>
+      },
+      {
+        path: "package/:id",
+        element: <Package/>
       },
     ]
   }
